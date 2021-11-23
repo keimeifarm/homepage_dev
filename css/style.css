@@ -1,0 +1,141 @@
+/*フォント*/
+body{
+  color: #333333;
+  /* background-color: #A0BF8A; */
+}
+h1{
+  font-size: 250%;
+  font-weight: normal;
+}
+h2{
+  font-size: 150%;
+  font-weight: normal;
+}
+h3{
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/*フェード*/
+.fade{
+  animation: fadeIn 1.5s ease 0.0s 1 normal;
+}
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+/*グローバルメニュー*/
+#title{
+  padding: 0px;
+  margin:  0px 40px 0px 10px;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  vertical-align: middle;
+}
+#menu{
+  padding: 0px;
+  margin: 10px 0px 10px 20px;
+  list-style-type: none;
+}
+#menu li{
+  padding: 10px;
+  margin: 10px;
+  display: inline;
+}
+#menu li a{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #CCC;
+  color: #FFF;
+  text-align: center;
+  float: left;
+}
+#menu li a:hover{
+  background-color: #333333;
+  color: #FFF;
+}
+#menu li a.selected{
+  background-color: #333333;
+  color: #FFF;
+}
+/*.header{
+  position: fixed;
+  top:  0px; 
+}*/
+
+
+/*パネル*/
+span.caption{
+  padding: 4px 10px;
+  margin: 10px 20px 10px -20px;
+  line-height: 2;
+  font-size: 250%;
+  /**
+  background-color: #333333;
+  color: #fff;
+  **/
+}
+#panel li{
+  list-style:none;
+}
+#panel li#act_top img{
+/*  text-align: center;*/
+  margin: 0px 0px 0px -46px;
+  width: 104%;
+}
+#panel li#act_job input.user{
+  width: 80px;
+  height: 14px;
+}
+div.button a{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #CCC;
+  color: #FFF;
+  text-align: center;
+  float: left;
+}
+div.button a:hover{
+  background-color: #000;
+  color: #FFF;
+}
+
+
+/* 写真 */
+.image-vw {
+  width : 50vw; 
+}
+div.arrow{
+  color: #333;
+  font-size: 250%
+}
+
+
+/* 牧場概要 */
+table tr th{
+  padding: 4px 10px;
+  margin: 10px 20px 10px -20px;
+  line-height: 2;
+  /**
+  font-size: 250%;
+  background-color: #333333;
+  color: #fff;
+  **/
+}
+
+
+/* フッター */
+.footer{
+  color: #CCCCCC;
+  background-color: #333333
+}
