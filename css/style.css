@@ -1,4 +1,3 @@
-/*フォント*/
 body{
   color: #333333;
   /* background-color: #A0BF8A; */
@@ -6,6 +5,7 @@ body{
 h1{
   font-size: 250%;
   font-weight: normal;
+  margin: 0px auto;
 }
 h2{
   font-size: 150%;
@@ -15,6 +15,30 @@ h3{
   font-size: 100%;
   font-weight: normal;
 }
+span.s1{
+  font-size: 120%;
+  font-weight: bold;
+  color: #880007;
+}
+span.s2{
+  font-size: 50%;
+}
+/* 翻訳 */
+div.translation{
+  font-size: 50%;
+  margin: -10px 0px 30px 0px;
+}
+
+
+hr{
+  text-align: center;
+  border: 0 none; 
+  width: 80%;
+  height: 2px; 
+  background-color: #696969;
+  margin: 50px auto;
+}
+
 
 /*フェード*/
 .fade{
@@ -26,9 +50,21 @@ h3{
 }
 
 
-
 .center{
+  margin: 10px auto;
   text-align: center;
+  white-space: nowrap;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+.aaaa{
+  display: inline-block;
+  width: 100px;
 }
 
 /*グローバルメニュー*/
@@ -92,10 +128,11 @@ span.caption{
   margin: 0px 0px 0px -46px;
   width: 104%;
 }
-#panel li#act_job input.user{
-  width: 80px;
-  height: 14px;
+
+.menu_image{
+  width: 50%;
 }
+
 div.button a{
   padding: 10px;
   margin: 10px;
@@ -122,10 +159,11 @@ div.arrow{
 
 
 /* 牧場概要 */
-table tr th{
+table tr th, td{
   padding: 4px 10px;
   margin: 10px 20px 10px -20px;
   line-height: 2;
+  font-size: 24px;
   /**
   font-size: 250%;
   background-color: #333333;
