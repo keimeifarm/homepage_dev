@@ -1,5 +1,6 @@
 body{
   color: #333333;
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;                                                                   | 
   /* background-color: #A0BF8A; */
 }
 h1{
@@ -26,7 +27,7 @@ span.s2{
 /* 翻訳 */
 div.translation{
   font-size: 50%;
-  margin: -10px 0px 30px 0px;
+  margin: -5px 0px 30px 0px;
 }
 
 
