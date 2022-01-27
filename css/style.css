@@ -153,6 +153,30 @@ div.arrow{
   font-size: 250%
 }
 
+/* トップ画像 */
+.img_inner{
+  max-width: 110%;
+  height: 700px;
+  margin: 47px 0px 0px -40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 7.0s;
+}
+
+.current-img{
+  opacity: 1;
+  z-index: 20;
+}
+
+
 
 /* 牧場概要 */
 table tr th, td{
