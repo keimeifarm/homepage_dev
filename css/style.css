@@ -198,3 +198,10 @@ table tr th, td{
   color: #CCCCCC;
   background-color: #333333
 }
+
+/*  アイコン */
+img.icon_s4{
+  width: 30px;
+  height: 30px;
+  margin: 0px 20px;
+}
