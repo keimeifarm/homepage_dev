@@ -64,6 +64,16 @@ hr{
 }
 
 /*グローバルメニュー*/
+#menu{
+  padding: 0px;
+  margin: 0px 0px 10px 20px;
+  list-style-type: none;
+  font-size: 24px;
+  overflow: visible;
+  position: absolute;
+  z-index: 50;
+}
+
 #title{
   padding: 0px;
   margin:  0px 40px 0px 10px;
@@ -71,11 +81,9 @@ hr{
   text-align: center;
   vertical-align: middle;
 }
-#menu{
-  padding: 0px;
-  margin: 10px 0px 10px 20px;
-  list-style-type: none;
-  font-size: 24px;
+#title a img{
+  margin: 0px 0px 0px -20px;
+  width: 220px;
 }
 #menu li{
   /*padding: 10px;*/
@@ -100,10 +108,6 @@ hr{
   background-color: #333333;
   color: #FFF;
 }
-/*.header{
-  position: fixed;
-  top:  0px; 
-}*/
 
 
 /*パネル*/
@@ -120,11 +124,11 @@ span.caption{
 #panel li{
   list-style:none;
 }
-#panel li#act_top img{
-/*  text-align: center;*/
+/*#panel li#act_top img{
+  text-align: center;
   margin: 0px 0px 0px -46px;
   width: 104%;
-}
+}*/
 
 .menu_image{
   width: 50%;
@@ -156,12 +160,51 @@ div.arrow{
 
 /* トップ画像 */
 .img_inner{
-  max-width: 110%;
+  /*max-width: 110%;*/
   height: 700px;
-  margin: 47px 0px 0px -40px;
+  margin: 0px 0px 0px -40px;
   overflow: hidden;
   position: relative;
 }
+
+/* トップ画像の上に透過カラー */
+.img_inner:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 30;
+}
+
+/* トップ画像の上に文字
+.img_inner p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:sans-serif;
+  font-size:50px;
+  font-weight:bold;
+  letter-spacing:5px;
+  color:#fff;
+  z-index: 40;
+} */
+
+/* トップ画像の上にロゴ画像 */
+.img_inner .img_logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:sans-serif;
+  letter-spacing:5px;
+  color:#fff;
+  z-index: 40;
+}
+
 
 .img{
   width: 100%;
