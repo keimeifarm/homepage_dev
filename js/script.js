@@ -5,9 +5,20 @@ $(function() {
     $("ul#menu li a.selected").removeClass("selected");
     $(this).addClass("selected");
     $("ul#panel li").hide();
-    $($(this).attr("href")).show();            // パッと表示
+    $($(this).attr("href")).show();              // パッと表示
     //$($(this).attr("href")).slideDown("fast"); // 上から下へスライド
-    //$($(this).attr("href")).fadeIn(1000);        // フェードイン
+    //$($(this).attr("href")).fadeIn(1000);      // フェードイン
+    return false;
+  });
+
+  // フッターメニュー押下時の切り替え処理
+  $("ul#footer li a").click(function(){
+    $("ul#menu li a.selected").removeClass("selected");
+    $("ul#panel li").hide();
+    $($(this).attr("href")).show();                 // パッと表示
+    $('body, html').animate({ scrollTop: 0 }, 500); // ページトップへ戻る
+    //$($(this).attr("href")).slideDown("fast");    // 上から下へスライド
+    //$($(this).attr("href")).fadeIn(1000);         // フェードイン
     return false;
   });
 
@@ -15,16 +26,13 @@ $(function() {
   let index = 0;
   $('.img').eq(index).addClass('current-img');
   setInterval(function(){
-    // 非表示
-    $('.img').eq(index).removeClass('current-img');
-    // 画像の最後判定
-    if(index == $('.img').length - 1){
+    $('.img').eq(index).removeClass('current-img'); // 非表示
+    if(index == $('.img').length - 1){              // 画像の最後判定
       index = 0;
     }else{
       index++;
     }
-    // 表示
-    $('.img').eq(index).addClass('current-img');
+    $('.img').eq(index).addClass('current-img');    // 表示
   }, 7000);
 
 });

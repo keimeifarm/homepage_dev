@@ -222,7 +222,6 @@ div.arrow{
 
 
 
-/* 牧場概要 */
 table tr th, td{
   padding: 4px 10px;
   margin: 10px 20px 10px -20px;
@@ -236,11 +235,34 @@ table tr th, td{
 }
 
 
-/* フッター */
-.footer{
-  color: #CCCCCC;
-  background-color: #333333
+/* 牧場概要 */
+.center_table{
+  margin: auto;
 }
+
+/* フッター */
+#footer{
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+#footer li{
+  display: inline;
+}
+
+#footer li a{
+  color: #333333;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#footer li a.s1{
+  font-size: 70%;
+}
+p.s1{
+  font-size: 70%;
+}
+
 
 /*  アイコン */
 img.icon_s4{
