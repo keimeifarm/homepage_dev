@@ -24,6 +24,13 @@ span.s1{
 span.s2{
   font-size: 50%;
 }
+
+/* 取り消し線 */
+span.del{
+  text-decoration: line-through;
+}
+
+
 /* 翻訳 */
 div.translation{
   font-size: 50%;
@@ -105,6 +112,28 @@ hr{
   color: #FFF;
 }
 #menu li a.selected{
+  background-color: #333333;
+  color: #FFF;
+}
+
+/* 寄付 */
+a img.adv{
+  font-size: 150%;
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  opacity:1.0;
+  padding: 0px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #CCC;
+  color: #FFF;
+  text-align: center;
+  float: left;
+  border-radius: 70px;
+}
+
+a img.adv:hover{
   background-color: #333333;
   color: #FFF;
 }
@@ -264,9 +293,16 @@ p.s1{
 }
 
 
-/*  アイコン */
+/* アイコン 小*/
 img.icon_s4{
   width: 30px;
   height: 30px;
   margin: 0px 20px;
+}
+
+/* アイコン 中 */
+img.icon_s3{
+  width: 120px;
+  height: 120px;
+  margin: 20px 20px;
 }
