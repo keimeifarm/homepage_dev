@@ -11,8 +11,8 @@ $(function() {
     return false;
   });
 
-  // フッターメニュー押下時の切り替え処理
-  $("ul#footer li a").click(function(){
+  // transitionクラスのリンク押下時の切り替え処理
+  $("a.transition").click(function(){
     $("ul#menu li a.selected").removeClass("selected");
     $("ul#panel li").hide();
     $($(this).attr("href")).show();                 // パッと表示
