@@ -116,7 +116,24 @@ hr{
   color: #FFF;
 }
 
-/* 寄付 */
+/* 戻るボタン */
+a.return{
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #CCC;
+  color: #FFF;
+  text-align: center;
+  /* float: left; */
+  border-radius: 10px;
+}
+a.return:hover{
+  background-color: #333333;
+  color: #FFF;
+}
+
+/* 応援する右下ボタン */
 a img.adv{
   font-size: 150%;
   position:fixed;
