@@ -11,6 +11,7 @@
   </script>
   <title>keimeifarm</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
   <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/siema.min.js" charset="utf-8"></script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -164,7 +165,7 @@
       <table class="center">
         <tr>
           <th class="right">預託費用　</th>
-          <td class="left"><span class="s2">月額</span>100,000<span class="s2">円（税込み）</span></td>
+          <td class="left"><span class="s2">月額</span>130,000<span class="s2">円（税込み）</span></td>
         </tr>
         <tr>
           <th class="right">入厩料　</th>
@@ -384,11 +385,28 @@
       <div class="fade center">
         <br><br>
         <h1>馬たちの体調</h1>
-        <div class="center">
         <br><br>
-        COMING SOON
-        <br><br>
+
+        <div class="center">サンプル1</div>   <!-- horse_0000_sample -->
+        <img src="./img/horse_0000_sample.jpg" alt="img">
+        <!-- chart.js -->
+        <div class="container center" style="width:50%">
+          <canvas id="horse_0000"></canvas>
+          <script src="./js/horse_0000_sample.js"></script>
         </div>
+        <!-- chart.js -->
+        <br><br>
+
+        <div class="center">サンプル2</div>   <!-- horse_0000_umayosshi -->
+        <img src="./img/horse_0000b_sample.jpg" alt="img">
+        <!-- chart.js -->
+        <div class="container center" style="width:50%">
+          <canvas id="horse_0000b"></canvas>
+          <script src="./js/horse_0000b_sample.js"></script>
+        </div>
+        <!-- chart.js -->
+        <br><br>
+
       </div>
     </li>
 
