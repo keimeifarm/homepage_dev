@@ -21,10 +21,11 @@
   <ul id="menu">
     <div id="title"><a href="https://keimeifarm.github.io/homepage/"><img src="./img/head_logo.png" alt="img"></a></div>
     <li><a href="#act_top" class="selected">トップ</a></li>
+    <li><a href="#act_condition">馬たちの体調</a></li>
     <li><a href="#act_system">預託システム</a></li>
-    <li><a href="#act_contents">コンテンツ</a></li>
     <li><a href="#act_access">アクセス</a></li>
     <!--
+    <li><a href="#act_contents">コンテンツ</a></li>
     <li><a href="#act_info">牧場概要</a></li>
     <li><a href="#act_twitter">つぶやき</a></li>
     <li><a href="#act_contact">お問い合わせ</a></li>
@@ -59,21 +60,13 @@
 
     <hr>
     <h1 class=center>
-      <p>2022年12月2日 開園！</p>
+      <p>更新履歴</p>
     </h1>
     <div class=center>
-    <p>大変長らくお待たせいたしました。</p>
-    <p>2022年秋に開園の予定で準備を進めていましたが</p>
-    <p>アクシデントに次ぐアクシデント…</p>
-    <p>ですが、ついに開園いたしました！</p>
-    <p>誠心誠意がんばりますのでどうぞよろしくお願いします。</p>
+    <p>2023/02/12 馬たちの体調ページ始動</p>
+    <p>2023/02/08 トントントントロ・グラマーがああああ</p>
+    <p>2022/12/02 ケイメイ牧場開園しました。</p>
     </div>
-    <br><br>
-    <h2 class=center>
-      牧場の様子はTwitterもしくは「つぶやき」からどうぞ。<br>
-      <br>
-      <a target="_blank" href="https://twitter.com/keimeifarm"><img class="icon_s3" src="./img/icon_twitter.png" alt="icon_twitter"></a>
-    </h2>
     <br><br><br>
 
     <hr>
@@ -194,13 +187,14 @@
       <table class="center">
         <tr>
           <th class="right">健康状態の記録　</th>
-          <td class="left">Webで閲覧可（仮）</td>
+          <td class="left">Webで閲覧可</td>
         </tr>
       </table>
       <div class="center">
         毎日、体重、検温、馬房掃除、放牧を行い<br>
-        健康状態をホームページの下部「<span class="s1">馬たちの体調</span>」ページへ掲載する予定です。<br>
+        健康状態をホームページの下部「<a class="transition" href="#act_condition">馬たちの体調</a>」ページへ掲載しています。<br>
         <br>
+        
         オーナー様は営業時間中来厩可能で<br>
         手入れやふれあいも自由に行っていただけます。<br>
         ※営業時間は7:00〜日没まで。<br>
@@ -429,25 +423,27 @@
         <h1>馬たちの体調</h1>
         <br><br>
 
-        <div class="center">サンプル1</div>   <!-- horse_0001_sample -->
-        <img src="./img/horse_0001_sample.jpg" alt="img">
+        <div class="center">トントントントロ</div>   <!-- horse_0001_ttr -->
+        <img src="./img/horse_0001_ttr.jpg" alt="img">
         <!-- chart.js -->
         <div class="container center" style="width:70%">
-          <canvas id="horse_0001_sample"></canvas>
-          <script src="./js/horse_0001_sample.js"></script>
+          <canvas id="horse_0001_ttr"></canvas>
+          <script src="./js/horse_0001_ttr.js"></script>
         </div>
         <!-- chart.js -->
-        <br><br>
+        <p>詳細情報は<a target="_blank" href="https://twitter.com/by67158897">こちら</a></p>
+        <br><br><br><br>
 
-        <div class="center">サンプル2</div>   <!-- horse_0002_sample -->
-        <img src="./img/horse_0002_sample.jpg" alt="img">
+        <div class="center">グラマー</div>   <!-- horse_0002_glm -->
+        <img src="./img/horse_0002_glm.jpg" alt="img">
         <!-- chart.js -->
         <div class="container center" style="width:70%">
-          <canvas id="horse_0002_sample"></canvas>
-          <script src="./js/horse_0002_sample.js"></script>
+          <canvas id="horse_0002_glm"></canvas>
+          <script src="./js/horse_0002_glm.js"></script>
         </div>
         <!-- chart.js -->
-        <br><br>
+        <p>詳細情報は<a target="_blank" href="https://twitter.com/by23255500">こちら</a></p>
+        <br><br><br><br>
 
       </div>
     </li>
@@ -481,10 +477,12 @@
 
   <ul id="footer">
     <li>　<a href="#act_top" class="transition selected">トップ</a>　</li>
+    <li>　<a href="#act_condition" class="transition">馬たちの体調</a>　</li>
     <li>　<a href="#act_system" class="transition">預託システム</a>　</li>
-    <li>　<a href="#act_contents" class="transition">コンテンツ</a>　</li>
     <li>　<a href="#act_access" class="transition">アクセス</a>　</li>
     <!--
+    <li>　<a href="#act_contents" class="transition">コンテンツ</a>　</li>
+    <li>　<a href="#act_condition" class="transition">馬たちの体調</a>　</li>
     <li>　<a href="#act_info">牧場概要</a>　</li><br>
     <li>　<a href="#act_twitter">つぶやき</a>　</li>
     -->
@@ -492,13 +490,15 @@
     <li><a target="_blank" href="https://twitter.com/keimeifarm"><img class="icon_s4" src="./img/icon_twitter.png" alt="icon_twitter"></a></li>
     <br>
     <li>　<a class="s1 transition" href="#act_info">牧場概要</a>　</li><br>
-    <li>　<a class="s1 transition" href="#act_condition">馬たちの体調</a>　</li><br>
+    <li>　<a class="s1 transition" href="#act_contents">コンテンツ</a>　</li><br>
     <li>　<a class="s1 transition" href="#act_twitter">つぶやき</a>　</li><br>
     <li>　<a class="s1 transition" href="#act_caution">みんなの愛馬の注意事項</a>　</li><br>
     <li>　<a class="s1 transition" href="#act_contact">お問い合わせ</a>　</li><br>
     <!--
+    <li>　<a class="s1 transition" href="#act_condition">馬たちの体調</a>　</li><br>
     -->
   </ul>
+  <p class="center s1">TEL: 0869-22-0178　MAIL: keimeifarm@gmail.com　営業時間: 毎日7:00〜日没まで</p>
   <p class="center">(c) 2022 KeimeiFarm All Rights Reserved.</p>
 </body>    
 <script>
