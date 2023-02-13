@@ -137,39 +137,20 @@ a.return:hover{
   color: #FFF;
 }
 
-/* 更新情報
-.changelog{
-  width:100%;
-  height:170px;
-  margin:0;
-  padding:20px;
-  background-color;#fff;
-  border-radius:border-box;
+/* 更新情報*/
+.update_info{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 150px;
+  white-space: nowrap;
+  overflow: scroll;
 }
 
-.changelog dl{
-  margin:0;
-  padding:0;
-  height:130px;
-  overflow:auto;
+.update_info p{
+  text-align: left;
 }
 
-.changelog dl dt{
-  float:left;
-  clear:left;
-  width:11%;
-  display:block;
-  color:#009999;
-  font-weight:800;
-}
-
-.changelog dl dd{
-  float:left;
-  width:87%;
-  margin: 0 14px 7px 0;
-  display:block;
-}
- */
 
 /* 応援する右下ボタン */
 a img.adv{
