@@ -140,15 +140,15 @@ a.return:hover{
 /* 更新情報*/
 .update_info{
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 150px;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 200px;
   white-space: nowrap;
   overflow: scroll;
 }
 
 .update_info p{
-  font-size: 150%;
+  font-size: 120%;
   text-align: left;
 }
 
