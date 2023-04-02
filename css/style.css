@@ -81,6 +81,7 @@ hr{
   list-style-type: none;
   font-size: 24px;
   overflow: visible;
+  /* overflow-x: scroll; */
   position: absolute;
   z-index: 50;
 }
@@ -292,7 +293,8 @@ table tr th, td{
   padding: 4px 10px;
   margin: 10px 20px 10px -20px;
   line-height: 2;
-  font-size: 24px;
+  font-size: 16px;
+  border-bottom: 2px solid #CCCCCC;
   /**
   font-size: 250%;
   background-color: #333333;
@@ -300,6 +302,11 @@ table tr th, td{
   **/
 }
 
+
+/* メッセージ */
+div.wp{
+  margin: 20px 8% 20px 8%;
+}
 
 /* 牧場概要 */
 .center_table{
