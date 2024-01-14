@@ -95,7 +95,7 @@ hr{
 }
 #title a img{
   margin: 0px 0px 0px -20px;
-  width: 220px;
+  width: 66px;
 }
 #menu li{
   /*padding: 10px;*/
@@ -302,6 +302,10 @@ table tr th, td{
   **/
 }
 
+/* リンクイメージ */
+.news_img img{
+  border-radius: 50px;
+}
 
 /* メッセージ */
 div.wp{
@@ -325,14 +329,15 @@ div.wp{
 }
 
 #footer li a{
+  margin: 10px 14px 10px;
   color: #333333;
   text-decoration: none;
   border-radius: 10px;
 }
-#footer li a.s1{
-  font-size: 70%;
+span.s1{
+  font-size: 200%;
 }
-p.s1{
+#footer li a.s4{
   font-size: 70%;
 }
 
